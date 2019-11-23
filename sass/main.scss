@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+@import '../node_modules/sanitize.css/sanitize';
+@import '../node_modules/bulma/sass/utilities/initial-variables.sass';
+
+// Primary font family
+$family-primary: 'Muli', sans-serif;
+
+// Navbar
+$navbar-background-color: $white-bis;
+$navbar-padding-vertical: 0.6rem;
+
+// Link color
+$link: $cyan;
+
+// Card
+$card-background-color: transparent;
+$card-shadow: 0px 0px 45px -18px rgba($grey-light, 0.5);
+
+// Card content
+$card-content-padding: 1rem 1.5rem;
+
+// Card footer
+$card-footer-border-top: none;
+$card-footer-padding: 0 1rem 0 0;
+
+// Footer
+$footer-background-color: $white;
+$footer-padding: 2rem 1.5rem;
+
+@import '../node_modules/bulma/bulma.sass';
+@import 'custom.scss';

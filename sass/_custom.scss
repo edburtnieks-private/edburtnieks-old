@@ -1,0 +1,82 @@
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  color: $orange;
+}
+
+.page-title {
+  margin-bottom: 2rem;
+}
+
+.github-icon {
+  margin-right: 0.4rem;
+}
+
+.external-link-icon {
+  align-self: flex-start;
+  height: 0.8rem !important;
+  margin-left: 0.2rem;
+  width: 0.8rem !important;
+}
+
+.card-link {
+  &:hover,
+  &:focus {
+    .card-image {
+      .overlay {
+        opacity: 1;
+      }
+
+      img {
+        transform: scale(1.2);
+      }
+    }
+  }
+}
+
+.card-image {
+  overflow: hidden;
+
+  img,
+  .overlay {
+    transition: all 0.2s ease-in-out;
+  }
+
+  .overlay {
+    align-items: center;
+    background-color: rgba($cyan, 0.8);
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+}
+
+.read-more-text {
+  background-color: $white;
+  display: inline-block;
+  font-weight: 700;
+  padding: 0.8rem 1rem;
+}
+
+.card-footer {
+  padding: 0 1.5rem 1rem;
+}
+
+.card-footer-item {
+  flex-basis: auto;
+  flex-grow: 0;
+  justify-content: normal;
+}
+
+.email {
+  span {
+    margin-left: 0.5rem;
+  }
+}
