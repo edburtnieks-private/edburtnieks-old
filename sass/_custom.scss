@@ -80,3 +80,22 @@ html {
     margin-left: 0.5rem;
   }
 }
+
+.skills-accent {
+  text-decoration: underline;
+}
+
+.skill-list {
+  ul {
+    margin-left: 4rem;
+  }
+
+  li {
+    margin: 0.5rem 0;
+  }
+
+  .box {
+    display: inline-block;
+    margin: 0;
+  }
+}

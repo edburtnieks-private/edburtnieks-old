@@ -1628,7 +1628,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
   color: #4a4a4a;
   display: block;
-  padding: 1.25rem; }
+  padding: 0.4rem 1rem; }
 
 a.box:hover, a.box:focus {
   box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0 0 1px #3298dc; }
@@ -7640,3 +7640,16 @@ html {
 
 .email span {
   margin-left: 0.5rem; }
+
+.skills-accent {
+  text-decoration: underline; }
+
+.skill-list ul {
+  margin-left: 4rem; }
+
+.skill-list li {
+  margin: 0.5rem 0; }
+
+.skill-list .box {
+  display: inline-block;
+  margin: 0; }
