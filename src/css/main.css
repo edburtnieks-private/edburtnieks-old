@@ -7631,6 +7631,7 @@ html {
   padding: 0.8rem 1rem; }
 
 .card-footer {
+  flex-wrap: wrap;
   padding: 0 1.5rem 1rem; }
 
 .card-footer-item {
@@ -7638,8 +7639,14 @@ html {
   flex-grow: 0;
   justify-content: normal; }
 
-.email span {
-  margin-left: 0.5rem; }
+.email {
+  font-size: 1.25rem; }
+  .email span {
+    margin-left: 0.5rem; }
+
+@media (min-width: 475px) {
+  .email {
+    font-size: 2rem; } }
 
 .skills-accent {
   text-decoration: underline; }

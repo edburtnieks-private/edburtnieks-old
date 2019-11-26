@@ -2,7 +2,7 @@
   "name": "edburtnieks",
   "version": "1.0.0",
   "description": "",
-  "main": "sass/main.scss",
+  "main": "src/sass/main.scss",
   "dependencies": {
     "sanitize.css": "^11.0.0"
   },
@@ -18,10 +18,10 @@
     "readable-stream": "^3.4.0"
   },
   "scripts": {
-    "css-build": "node-sass --omit-source-map-url sass/main.scss css/main.css",
+    "css-build": "node-sass --omit-source-map-url src/sass/main.scss src/css/main.css",
     "css-watch": "npm run css-build -- --watch",
-    "start": "npm run css-watch",
-    "production": "gulp"
+    "dev": "npm run css-watch",
+    "prod": "gulp"
   },
   "keywords": [],
   "author": "",
