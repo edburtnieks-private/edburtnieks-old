@@ -8,6 +8,7 @@
   },
   "devDependencies": {
     "bulma": "^0.8.0",
+    "del": "^5.1.0",
     "gulp": "^4.0.2",
     "gulp-clean-css": "^4.2.0",
     "gulp-htmlmin": "^5.0.1",
@@ -20,7 +21,7 @@
     "css-build": "node-sass --omit-source-map-url sass/main.scss css/main.css",
     "css-watch": "npm run css-build -- --watch",
     "start": "npm run css-watch",
-    "build": "gulp"
+    "build": "gulp build"
   },
   "keywords": [],
   "author": "",
