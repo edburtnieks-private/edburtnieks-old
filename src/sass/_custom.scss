@@ -77,15 +77,17 @@ html {
 }
 
 .email {
-  font-size: 1.25rem;
-
   span {
     margin-left: 0.5rem;
   }
 }
 
+.email-footer {
+  font-size: 1.25rem;
+}
+
 @media (min-width: 475px) {
-  .email {
+  .email-footer {
     font-size: 2rem;
   }
 }
