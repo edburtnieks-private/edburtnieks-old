@@ -43,4 +43,4 @@ async function build() {
   return await gulp.series(cleanDist, gulp.parallel(html, css, js, images));
 }
 
-exports.build = build;
+exports.default = build;
