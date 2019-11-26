@@ -36,11 +36,7 @@ function images() {
 }
 
 function cleanDist() {
-  return del.sync('dist');
+  return del(['dist']);
 }
 
-async function build() {
-  return await gulp.series(cleanDist, gulp.parallel(html, css, js, images));
-}
-
-exports.default = build;
+exports.default = gulp.series(cleanDist, gulp.parallel(html, css, js, images));
