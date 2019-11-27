@@ -7,13 +7,16 @@
     "sanitize.css": "^11.0.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
     "bulma": "^0.8.0",
     "del": "^5.1.0",
     "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0-beta.2",
     "gulp-clean-css": "^4.2.0",
     "gulp-htmlmin": "^5.0.1",
     "gulp-purgecss": "^1.2.0",
-    "gulp-uglify-es": "^2.0.0",
+    "gulp-uglify": "^3.0.2",
     "node-sass": "^4.13.0",
     "readable-stream": "^3.4.0"
   },

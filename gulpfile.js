@@ -2,7 +2,8 @@ const gulp = require('gulp');
 const htmlmin = require('gulp-htmlmin');
 const purgecss = require('gulp-purgecss');
 const cleanCSS = require('gulp-clean-css');
-const uglify = require('gulp-uglify-es').default;
+const babel = require("gulp-babel");
+const uglify = require('gulp-uglify');
 const del = require('del');
 
 function html() {
@@ -27,6 +28,7 @@ function css() {
 function js() {
   return gulp
     .src('src/js/**/*.js')
+    .pipe(babel())
     .pipe(uglify())
     .pipe(gulp.dest('dist/js'));
 }
