@@ -7589,6 +7589,9 @@ html {
 ::selection {
   color: #ff470f; }
 
+.navbar-item {
+  align-items: center; }
+
 .page-title {
   margin-bottom: 2rem; }
 
