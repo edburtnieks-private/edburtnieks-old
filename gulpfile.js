@@ -19,6 +19,7 @@ function css() {
     .pipe(
       purgecss({
         content: ['src/**/*.html'],
+        whitelist: ['is-active']
       })
     )
     .pipe(cleanCSS())
